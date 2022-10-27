@@ -77,7 +77,7 @@ int main(){
 
 #ifdef task4
 int main(){
-    node* head = new node;
+    node* head;
     int n;
     std::cin >> n;
     int num;
@@ -89,7 +89,7 @@ int main(){
     node* curr = head;
     for (int i = 0; i < n; i++)
     {
-        std::cout << curr->value;
+        std::cout << curr->value << " ";
         curr = curr->next;
     }
     return 0;
