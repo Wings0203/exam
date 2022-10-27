@@ -1,6 +1,6 @@
 #include "header4.h"
 
-node* Add2List(node* head, int num){
+node* Add2List(node* head, list num){
     if (!head)
     {
         node* curr = new node;
