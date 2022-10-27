@@ -1,4 +1,4 @@
-#include "header.h"
+#include "header1.h"
 
 int fact(int n){
     if (n == 0 || n == 1){
